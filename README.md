@@ -7,7 +7,7 @@ This package is created to automate metamask wallet extension using selenium web
 
 
 ```sh
-pip install ./selenium_metamask_automation
+pip install selenium_metamask_automation
 ```
 or
 ```sh
