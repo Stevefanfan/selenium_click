@@ -1,25 +1,3 @@
-
-## Introduction
-This package is created to automate metamask wallet extension using selenium webdriver. 
-
-#### To Install The Package:
-
-
-
-```sh
-pip install selenium_metamask_automation
-```
-or
-```sh
-pip install -i https://test.pypi.org/simple/ selenium-metamask-automation
-```
-Check if the package exists
-```sh
-pip list
-```
-
-## Functions
-
 #### 1. To download the extension:
 
 ```sh
@@ -30,12 +8,6 @@ This function has to be run once before all functions to download the metamask e
 “Path to extension does not exist”
 
 #### 2. To launch the extension use the function below
-```sh
-selenium_metamask_automation.launchMetamaskExtension(args)
-```
-args: path to chrome webdriver
-
-
 
 This function returns a value which contains the driver. You can retrieve it like:
 ```sh
