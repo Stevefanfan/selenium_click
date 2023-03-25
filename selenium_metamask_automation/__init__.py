@@ -28,7 +28,7 @@ def launchSeleniumWebdriver(driverPath):
 
 
 def metamaskSetup(recoveryPhrase, password):
-    driver.switch_to.window(driver.window_handles[0])
+    driver.switch_to.window(driver.window_handles[1])
 
     driver.find_element_by_xpath('//button[text()="Get Started"]').click()
     driver.find_element_by_xpath('//button[text()="Import wallet"]').click()
